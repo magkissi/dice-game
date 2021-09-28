@@ -28,7 +28,6 @@
         :ctScore="player2.currentScore"
       />
     </div>
-    <div>footer</div>
   </div>
 </template>
 
