@@ -10,14 +10,14 @@
     </div>
     <div class="btn">
       <div class="new-game-btn">
-        <Button @btn-click="newGame" text1="New game" pic="🔄" />
+        <Button @btn-click="newGame" text="New game" pic="🔄" />
       </div>
       <div class="dice" v-if="showDice"><img :src="url" alt="dice" /></div>
       <div class="roll-btn">
-        <Button @btn-click="rollDice" text1="Roll a dice" pic="🎲" />
+        <Button @btn-click="rollDice" text="Roll a dice" pic="🎲" />
       </div>
       <div class="hold-btn">
-        <Button @btn-click="holdBtn" text1="Hold" pic="📥" />
+        <Button @btn-click="holdBtn" text="Hold" pic="📥" />
       </div>
     </div>
     <div id="player2">
